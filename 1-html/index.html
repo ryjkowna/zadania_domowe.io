@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz </title>
+</head>
+
+<body>
+
+    <form action="https://formspree.io/ryjkowna@gmail.com" method="POST">
+        <label for="name">Imię:</label><br>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="surname">Nazwisko</label><br>
+        <input type="text" name="surname" id="surname"><br>
+
+        <label for="_replyto">E-mail:</label><br>
+        <input type="email" name="_replyto" id="_replyto"><br>
+
+        <label for="telefon">Nr telefonu:</label><br>
+        <input type="tel" name="telefon" id="telefon"><br>
+
+        <label for="miasto">Miasto:</label><br>
+        <select name="miasto" id="miasto">
+            <option value="krakow" selected>Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select> <br>
+
+        <label for="plec">Wybierz płeć:</label><br>
+        <input type="radio" name="plec" id="plec">Mężczyzna <br>
+        <input type="radio" name="plec">Kobieta <br>
+
+        <label for="wiadomosc">Wiadomość:</label><br>
+        <textarea name="message" cols="25" rows="6" id="wiadomosc"></textarea>
+        <br />
+
+        <input type="checkbox" name="zgoda" id="zgoda" required>
+        <label for="zgoda">Zgoda na przetwarzanie danych osobowych:</label> <br>
+
+        <input type="submit" name="wyslij" value="Send">
+    </form>
+
+
+</body>
+
+</html>
