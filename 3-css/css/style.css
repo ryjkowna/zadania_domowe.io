@@ -1,0 +1,133 @@
+#base {
+    background-color: beige;
+    width: 900px;
+    height: 900px;
+    position: relative;
+
+}
+
+[class*="kwadrat"] {
+    width: 33vh;
+    height: 33vh;
+    position: relative;
+    border: 5px solid beige;
+}
+
+[class*="kolo"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top-style: solid black;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.kwadrat1 {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.kwadrat2 {
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 33%;
+}
+
+.kwadrat3 {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 66%
+}
+
+.kwadrat4 {
+    background-color: yellow;
+    position: absolute;
+    top: 33%;
+    left: 0;
+}
+
+.kwadrat5 {
+    background-color: #000;
+    position: absolute;
+    top: 33%;
+    left: 33%;
+}
+
+.kwadrat6 {
+    background-color: orange;
+    position: absolute;
+    top: 33%;
+    left: 66%;
+}
+
+.kwadrat7 {
+    background-color: purple;
+    position: absolute;
+    top: 66%;
+    left: 0;
+
+}
+
+.kwadrat8 {
+    background-color: darkgray;
+    position: absolute;
+    top: 66%;
+    left: 33%;
+}
+
+.kwadrat9 {
+    background-color: pink;
+    position: absolute;
+    top: 66%;
+    left: 66%;
+}
+
+.kolo1 {
+    background-color: pink;
+
+}
+
+.kolo2 {
+    background-color: gray;
+
+
+}
+
+.kolo3 {
+    background-color: purple;
+
+
+}
+
+.kolo4 {
+    background-color: green;
+
+}
+
+.kolo5 {
+    background-color: red;
+
+}
+
+.kolo6 {
+    background-color: blue;
+}
+
+.kolo7 {
+    background-color: orange;
+}
+
+
+.kolo8 {
+    background-color: yellow;
+}
+
+.kolo9 {
+    background-color: black;
+}
