@@ -1,26 +1,26 @@
 #base {
     background-color: beige;
-    width: 900px;
-    height: 900px;
+    width: 90vmin;
+    height: 90vmin;
     position: relative;
 
 }
 
 [class*="kwadrat"] {
-    width: 33vh;
-    height: 33vh;
+    width: 33%;
+    height: 33%;
     position: relative;
     border: 5px solid beige;
 }
 
 [class*="kolo"] {
-    width: 200px;
-    height: 200px;
+    width: 70%;
+    height: 70%;
     border-radius: 50%;
-    border-top-style: solid black;
+    border: 1px solid #000;
     position: absolute;
-    top: 15%;
-    left: 15%;
+    top: 14%;
+    left: 14%;
 }
 
 .kwadrat1 {
