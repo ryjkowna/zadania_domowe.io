@@ -53,6 +53,7 @@ div.right {
         font: 20px Arial;
         overflow: auto;
         flex-wrap: wrap;
+        margin: auto;
 
     }
 
