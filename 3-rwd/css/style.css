@@ -1,14 +1,13 @@
 * {
     box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-
 }
+
 .main {
     background-image: url(../obrazy/man-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    height: 100vh;
 }
 
 h3.first,
@@ -33,7 +32,7 @@ h1.second {
 
     div.main {
         background-image: url(../obrazy/man-2.jpg);
-        height:70vh;
+        height: 70vh;
     }
 
     h3.first,
@@ -56,12 +55,18 @@ h1.second {
         h3.first,
         h1.second {
             top: 60vh;
-            left: 0;
+            left:0;
             color: black;
-            text-align: center;
-        font-size: 3vh}
-            
-            h1.second{ top:65vh;}
-            
-        
+           text-align: center;
+            font-size: 3vh;
+            position: relative;
+        }
+
+        h1.second {
+            top: 65vh; 
+           
+    
+        }
+
+
     }
